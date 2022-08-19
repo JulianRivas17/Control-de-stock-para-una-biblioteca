@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@600&family=Open+Sans:wght@300;500;800&family=Quicksand&display=swap');
+ :root {
+    --main-color: #156225;
+    --bg: #FAFCFC;
+    --border: .1rem solid #156225;
+}
+
+/* Agregar tipografias*/  
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+/* Final del agregado de tipografias*/  
+
+/* Inicio de apartado Colegio*/     
+
+.inicio{
+    min-height: 100vh;
+    position: relative;
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    background-position:center;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido{
+   padding-top: 130px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   margin: auto;
+   position: relative;
+   z-index: 2;
+}
+
+.contenido h4 {
+    font-family:'Quicksand', sans-serif;
+    font-size: 2rem;
+    text-transform: initial;
+    color: #fff;
+    max-width: 100rem;
+    font-weight:500;
+    letter-spacing: 5px;
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    color: #ffffff;
+    background: linear-gradient(to right, #1F241D, #3c861a, #1F241D );
+    border-radius: 25px;
+    cursor:default ;
+}
+
+.contenido h1 {
+font-family:'Open Sans', sans-serif;
+font-size: 6rem;
+text-transform:uppercase;
+color: #fff;
+max-width: 100%;
+font-weight:700;
+}
+
+/*Inicio sección Historia*/  
+
+.historia{
+    min-height: 75vh;
+    min-width: none;
+    position: relative;
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    background-position:center;
+    background-color: rgb(247, 242, 242);
+}
+
+.inft {
+    padding: 2rem 7%;
+}
+
+.div2{
+    font-family:'Quicksand', sans-serif;
+    font-size: 2rem;
+    text-transform: initial;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: #fff;
+    background:linear-gradient(to right, #1F241D, #3c861a, #1F241D );
+    width: 200px;
+    height: 40px;
+    padding-left: 1rem;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.inft h1{
+    font-family: Roboto;
+    font-size: 3rem;
+    text-transform: initial;
+    color: #000000;
+    max-width: 65rem;
+    font-weight:550;
+}
+
+.inft p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    text-transform: initial;
+    text-align: justify;
+    color: #000000;
+    max-width: 65rem;
+    font-weight:500;
+}
+
+.lin {
+    border-top: 50px;
+    background: linear-gradient(to right, #143108, #1a680a);
+    height: 8px;
+    max-width: 70px;
+    padding: 0;
+    margin: 2px auto 5 auto;
+  }
+
+.imagen_iso_uno video {
+    padding: 10px;
+    width: 40%;
+    left: 20%;
+    margin-top: 80px;
+    margin-left:500px;
+    border-radius: 3rem;
+    height: 80%;
+}
+
+/*Final sección Historia*/ 
+
+/*Inicio sección Especialidades*/ 
+
+.especialidades{
+    min-height: 60vh;
+    position: relative;
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    background-position:center;
+    
+}
+
+.inf {
+    padding: 2rem 7%;
+}
+
+.inf h4{
+    font-family: Roboto;
+    font-size: 2.5rem;
+    text-transform: initial;
+    color: hsl(0, 0%, 0%);
+    max-width: 65rem;
+    font-weight:600;
+}
+
+.inf h3{
+    font-family: Roboto;
+    font-size: 3rem;
+    text-transform: initial;
+    color: #156225;
+    max-width: 65rem;
+    font-weight:600;
+}
+
+.inf p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    text-transform: initial;
+    text-align: justify;
+    color: #000000;
+    max-width: 65rem;
+    font-weight:500;
+}
+
+.li {
+    border-top: 50px;
+    background: linear-gradient(to right, #143108, #1a680a);
+    height: 6px;
+    max-width: 40px;
+    padding: 0;
+    margin: 2px auto 5 auto;
+  }
+
+.imag_iso_uno video{
+    padding: 10px;
+    width: 35%;
+    left: 20%;
+    margin-top: 80px;
+    margin-left:540px;
+    border-radius: 3rem;
+    height: 80%;
+}
+
+.especialid{
+    min-height: 80vh;
+    position: relative;
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    background-position:center;
+}
+
+.in{
+    padding: 2rem 7%; 
+}
+
+.in h4{
+    font-family: Roboto;
+    font-size: 2.5rem;
+    text-transform: initial;
+    color: hsl(0, 0%, 0%);
+    max-width: 65rem;
+    font-weight:600;
+}
+
+.in h3{
+    font-family: Roboto;
+    font-size: 3rem;
+    text-transform: initial;
+    color: #156225;
+    max-width: 65rem;
+    font-weight:600;
+}
+
+.in p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    text-transform: initial;
+    text-align: justify;
+    color: #000000;
+    max-width: 65rem;
+    font-weight:500;
+}
+
+.line{
+    border-top: 50px;
+    background: linear-gradient(to right, #143108, #1a680a);
+    height: 6px;
+    max-width: 40px;
+    padding: 0;
+    margin: 2px auto 5 auto;
+}
+
+.ima_iso_uno video{
+    padding: 10px;
+    width: 35%;
+    left: 20%;
+    margin-top: 100px;
+    margin-left:540px;
+    border-radius: 3rem;
+    height: 70%;
+}
+
+
+/*Final sección Especialidades*/ 
+
+/* Final de apartado Colegio*/       

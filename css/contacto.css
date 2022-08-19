@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@600&family=Open+Sans:wght@300;500;800&family=Quicksand&display=swap');
+ :root {
+    --main-color: #156225;
+    --bg: #FAFCFC;
+    --border: .1rem solid #156225;
+}
+
+/* Agregar tipografias*/  
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+/* Final del agregado de tipografias*/
+
+/*Inicio apartado contacto*/
+
+.contact_{
+    min-height: 15vh;
+    min-width: none;
+    position: relative;
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    background-position:center;
+    background-color:#FAFCFC;
+    justify-content: center;
+}
+
+.cont{
+    padding: 2rem 7%;
+}
+
+.contact_ .cont{
+    font-family:'Quicksand', sans-serif;
+    font-size: 2rem;
+    text-transform: initial;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: #fff;
+    background:linear-gradient(to right, #1F241D, #3c861a, #1F241D );
+    width: 200px;
+    height: 40px;
+    padding-left: 1rem;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.mapa{
+    min-height: 100vh;
+    position: absolute;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    justify-content: center;
+    background-color:#FAFCFC;
+    align-content: center;
+}
+
+.mapa{
+    padding: 2rem 15%;
+}
+
+.info-form a{
+    font-size: 15px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color:black;
+    font-family: Roboto;
+    text-transform: initial;
+    margin-left: 15px;
+
+}
+
+.info-form a i{
+    color:#3c861a;
+    margin-left: 20px;
+}

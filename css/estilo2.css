@@ -1,0 +1,717 @@
+body {
+    background-color: #FAFCFC;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@600&family=Open+Sans:wght@300;500;800&family=Quicksand&display=swap');
+ :root {
+    --main-color: #820ECE;
+    --bg: #FAFCFC;
+    --border: .1rem solid #820ECE;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #070807;
+    border-radius: 5rem;
+}
+
+body {
+    background: var(--bg);
+}
+
+
+.heading {
+    text-align: center;
+    color: #070807;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.header {
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 5rem;
+}
+
+.header .tecnica img {
+    height: 5rem;
+}
+
+.header .navbar a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: #070807;
+}
+
+.header .navbar a:hover {
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.header .icons div {
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover {
+    color: var(--main-color);
+}
+
+/*INICIO NOSOTROS*/
+
+.nosotros{
+    min-height: 110vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto{
+    padding: 2rem 7%;
+}
+
+.texto{
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+ }
+
+.texto h6{
+    font-family:'Quicksand', sans-serif;
+    font-size: 2rem;
+    text-transform: initial;
+    color: #B63A54;
+    max-width: 100rem;
+    font-weight:500;
+    letter-spacing: 5px;
+}
+
+.texto h1{
+    font-family: Roboto;
+    font-size: 5rem;
+    text-transform:initial;
+    color: #fff;
+    max-width: 80rem;
+    font-weight:600;    
+}
+
+.texto p{
+    font-family:Roboto;
+    font-size: 1.8rem;
+    text-transform: initial;
+    text-align: justify;
+    color: #fff;
+    max-width: 72rem;
+    font-weight:500;
+}
+
+/*FINAL SECCION NOSOTROS*/
+
+/*espacio*/
+.espacio{
+    min-height: 10vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #fff;
+    color: #fff;
+}
+/*fin espacio*/
+
+
+/*INICIO SECCIÓN MASINFO*/
+
+.masinfo{
+    min-height: 35vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #F4EBFF;
+}
+
+.tex{
+    padding: 2rem 12%;
+    padding-top: 90px;
+}
+
+.text{
+    padding: 2rem 1%;
+    padding-top: 90px;
+}
+
+.tex h1{
+    font-family: Roboto;
+    font-size: 3.2rem;
+    text-transform: initial;
+    color: #000000;
+    max-width: 38rem;
+    font-weight:600;
+}
+
+.text p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    text-transform: initial;
+    text-align: justify;
+    color: #998c8c;
+    max-width: 58rem;
+    font-weight:500;
+}
+
+/*FIN SECCIÓN MASINFO*/
+
+/*inicio espacio*/
+.esp{
+    min-height: 3vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #fff;
+    color: #fff;
+}
+/*fin espacio*/
+
+/*INICIO SECCIÓN MAS INFO*/
+
+.inf{
+    min-height: 35vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #F4EBFF;
+}
+
+.tex1 .btn {
+    margin-top: 1rem;
+    margin-left: 6rem;
+    padding: 1rem 4rem;
+    font-size: 1.7rem;
+    color: #ffffff;
+    background: linear-gradient(to right, #235597,#7F0ECE);
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+    color: #fff;
+    
+}
+
+.tex1{
+    padding: 2rem 12%; 
+    padding-top: 70px;
+}
+
+.text2{
+    padding: 2rem 1%;
+    padding-top:50px;
+}
+
+.tex1 h1{
+    font-family: Roboto;
+    font-size: 3rem;
+    text-transform: initial;
+    color: #000000;
+    max-width: 38rem;
+    font-weight:600;
+}
+
+.text p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    text-transform: initial;
+    text-align: justify;
+    color: #000000;
+    max-width: 58rem;
+    font-weight:500;
+}
+
+.text2 p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    text-transform: initial;
+    text-align: justify;
+    color: #000000;
+    max-width: 58rem;
+    font-weight:500;
+}
+
+/*FIN SECCIÓN MASINFO*/
+
+/*inicio espacio*/
+.espa{
+    min-height: 3vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #fff;
+    color: #fff;
+}
+
+/*fin espacio*/
+
+/* inicio seccion cuadro*/
+
+.cuadro{
+    min-height: 25vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    align-items: center;
+}
+
+.fond video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inform{
+    padding: 2rem 7%;
+}
+
+.inf1{
+    padding: 2rem 7%;
+}
+
+.inf2{
+    padding: 2rem 7%;
+}
+
+.inform{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    margin:0%;
+    padding-left: 18%;
+    position: relative;
+    z-index: 2;
+}
+
+.inform h1{
+    font-family:'Open Sans', sans-serif;
+    font-size: 5rem;
+    text-transform: initial;
+    color: #fff;
+    max-width: 20rem;
+    font-weight:900;
+}
+
+.inform p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-transform: initial;
+    color: #fff;
+    max-width: 20rem;
+    font-weight:400;
+}
+
+.inf1{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    margin:0%;
+    position: relative;
+    z-index: 2;
+}
+
+.inf1 h1{
+    font-family:'Open Sans', sans-serif;
+    font-size: 5rem;
+    text-transform: initial;
+    color: #fff;
+    max-width: 20rem;
+    font-weight:900;
+}
+
+.inf1 p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-transform: initial;
+    color: #fff;
+    max-width: 20rem;
+    font-weight:400;
+}
+
+
+.inf2{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    margin:0%;
+    position:relative;
+    z-index: 2;
+}
+
+.inf2 h1{
+    font-family:'Open Sans', sans-serif;
+    font-size: 5rem;
+    text-transform: initial;
+    color: #fff;
+    max-width: 20rem;
+    font-weight:900;
+}
+
+.inf2 p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-transform: initial;
+    color: #fff;
+    max-width: 20rem;
+    font-weight:400;
+}
+
+
+/* final seccion cuadro*/
+
+/*INICIO SECCION SERVICIOS*/
+
+.servicios{
+    min-height: 10vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+}
+
+.cont1 {
+    padding: 5rem 7%;
+}
+
+.servicios .cont1 h6{
+    font-family:'Quicksand', sans-serif;
+    font-size: 2rem;
+    text-transform: initial;
+    color: #B63A54;
+    max-width: 100rem;
+    font-weight:500;
+    letter-spacing: 5px;
+}
+
+.servicios .cont1 h1{
+    font-family: Roboto;
+    font-size: 4rem;
+    text-transform:initial;
+    color: #000000;
+    max-width: 110rem;
+    font-weight:600; 
+}
+
+.espacio2{
+    min-height: 3vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #fff;
+    color: #fff;
+}
+
+/* comienzo cuadro diseño grafico*/
+.servis{
+    min-height: 40vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #F4EBFF;
+    min-width: 100px;
+}
+
+.servis .disgraf{
+    padding: 5rem 9%;
+}
+
+.servis .disgraf h5{
+    font-family: Roboto;
+    font-size: 3.2rem;
+    text-transform: initial;
+    color: #000000;
+    max-width: 38rem;
+    font-weight:600;
+    position: relative;
+}
+
+.servis .disgraf p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-transform: initial;
+    text-align:left;
+    color:#000000;
+    max-width: 54rem;
+    font-weight:600;
+    position: relative;
+}
+
+.servis .disgraf .btn{
+    margin-top: 1rem;
+    margin-left: -0.1rem;
+    padding: 1rem 7%;
+    font-size: 1.7rem;
+    color:#fff;
+    background: linear-gradient(to right, #235597,#7F0ECE);
+    cursor: pointer;
+    position: relative;
+}
+
+.servis .disgraf img{ 
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    left:750px;
+    top:0;
+}
+
+/*fin cuadro diseño grafico*/
+
+/*comienzo cuadro mantenimiento pc*/
+
+.servis2{
+    min-height: 35vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #F4EBFF;
+}
+.servis2 .repar{
+    padding: 5rem 9%;
+}
+
+.servis2 .repar h5{
+    font-family: Roboto;
+    font-size: 3.2rem;
+    text-transform: initial;
+    color: #000000;
+    max-width: 40rem;
+    font-weight:600;
+    position: relative;
+}
+
+.servis2 .repar p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-transform: initial;
+    text-align:left;
+    color:#000000;
+    max-width: 54rem;
+    font-weight:600;
+    position: relative;
+}
+
+.servis2 .repar .btn{
+    margin-top: 1rem;
+    margin-left: -0.1rem;
+    padding: 1rem 7%;
+    font-size: 1.7rem;
+    color:#fff;
+    background: linear-gradient(to right, #235597,#7F0ECE);
+    cursor: pointer;
+    position: relative;
+}
+
+.servis2 .repar img{ 
+    width: 650px;
+    height: 320px;
+    position: absolute;
+    left:750px;
+    top:0;
+}
+
+.espacio3{
+    min-height: 8vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #fff;
+    color: #fff;
+}
+
+/*fin cuadro mantenimiento pc*/
+
+/*FINAL SECCION SERVICIOS*/
+
+/*INICIO SECCION CONTACTO*/
+
+.contacto{
+    min-height: 60vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #F4EBFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto .contcontac h6{
+    font-family:'Quicksand', sans-serif;
+    font-size: 2rem;
+    text-transform: initial;
+    color: #B63A54;
+    font-weight:500;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.contacto .contcontac h1{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 4rem;
+    text-transform: initial;
+    color: #000000;
+    font-weight:600;
+}
+
+.contacto .contcontac p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    text-transform: initial;
+    color:#000000;
+    font-weight:500;
+    min-width: 50px;
+    text-align: center;
+    line-height:15px;
+}
+
+.contacto .contcontac .btn{
+    margin-top: 1rem;
+    margin-left: -0.1rem;
+    padding: 1rem 7%;
+    font-size: 1.7rem;
+    color:#fff;
+    background: linear-gradient(to right, #235597,#7F0ECE);
+    cursor: pointer;
+    position: relative;
+    letter-spacing: -0.3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:500;
+}
+
+.espacio4{
+    min-height: 8vh;
+    position: relative;
+    display:flex;
+    background-size: cover;
+    background-position:center;
+    background-color: #fff;
+    color: #fff;
+}
+/*FINAL SECCION CONTACTO*/
